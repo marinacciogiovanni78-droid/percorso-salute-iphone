@@ -1,0 +1,20 @@
+PERCORSO SALUTE 3.2 - AGGIORNAMENTO
+
+1. Esporta prima un backup JSON dall'app installata sulla Home.
+2. Su GitHub apri il repository percorso-salute-iphone.
+3. Carica il file app.js presente in questa cartella nella RADICE del repository, sovrascrivendo quello esistente.
+4. Conferma con Commit changes su main.
+5. Attendi che GitHub Pages completi il deployment.
+6. Apri l'app in Safari e verifica la scheda Oggi e Pasti; poi riapri l'app dalla Home. Un service worker potrebbe ritardare la visualizzazione della nuova versione.
+
+Non cancellare l'app dalla Home e non cancellare i dati di Safari.
+La versione 3.2 conserva la stessa chiave localStorage della 3.1 e non azzera i dati.
+I dati in Safari e nella Home possono essere separati: non si sincronizzano automaticamente.
+
+NOVITA':
+- Stima kcal visibile accanto ai menu proposti.
+- Recupero conservativo delle kcal per vecchi pasti del menu identificabili.
+- Riepilogo kcal per tipologia di pasto nella schermata Oggi.
+- Pulsante Modifica kcal nella cronologia pasti.
+
+Le stime caloriche sono indicative e non costituiscono una prescrizione dietetica.
